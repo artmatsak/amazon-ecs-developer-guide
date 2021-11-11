@@ -110,7 +110,7 @@ aws ecs create-service \
     --cluster cluster-name \
     --task-definition task-definition-name \
     --enable-execute-command \
-    --service-name service-name
+    --service-name service-name \
     --desired-count 1
 ```
 
